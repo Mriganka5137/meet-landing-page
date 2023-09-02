@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6.75rem;
+}
+
+.primary_heading {
+  color: #28283d;
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 4rem; /* 100% */
+}
+
+.description {
+  width: 33.75rem;
+  color: #87879d;
+  text-align: center;
+  font-family: Red Hat Display;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 144.444% */
+  margin-top: 2rem;
+}
+
+.button_group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  border: none;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.625rem;
+  border-radius: 1.8rem;
+  padding: 1rem 2.5rem;
+  color: #fff;
+}
+
+.btn_download {
+  background-color: #4d96a9;
+}
+
+.btn_question {
+  background-color: #855fb1;
+}
