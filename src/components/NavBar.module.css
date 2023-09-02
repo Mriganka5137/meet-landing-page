@@ -1,0 +1,9 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.logo {
+  height: 1.75rem;
+}

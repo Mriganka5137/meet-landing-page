@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --color-green: #4d96a9;
+  --color-violet: #855fb1;
+  --color-black: #28283d;
+  --color-grey: #87879d;
+  --color-light-blue: #8fe3f9;
+  --color-light-violet: #d9b8ff;
+  --color-white: #dfdfdf;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+}
