@@ -41,12 +41,25 @@ header {
   border-radius: 1.8rem;
   padding: 1rem 2.5rem;
   color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
 }
 
 .btn_download {
   background-color: #4d96a9;
 }
 
+.btn_download:hover {
+  background-color: #71c0d4;
+}
+.btn_download > span {
+  color: #8fe3f9;
+}
+
 .btn_question {
   background-color: #855fb1;
+}
+
+.btn_question:hover {
+  background-color: #b18bdd;
 }

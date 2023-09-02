@@ -55,6 +55,12 @@
   font-style: normal;
   font-weight: 900;
   line-height: 1.625rem; /* 162.5% */
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+.btn:hover {
+  background-color: #b18bdd;
 }
 
 .btn > span {
