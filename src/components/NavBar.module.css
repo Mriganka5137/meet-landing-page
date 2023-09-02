@@ -7,3 +7,9 @@
 .logo {
   height: 1.75rem;
 }
+
+@media screen and (max-width: 48rem) {
+  .navbar {
+    margin-top: 3rem;
+  }
+}
