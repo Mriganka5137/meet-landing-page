@@ -17,8 +17,27 @@
   right: -2rem;
 }
 
+.hero3 {
+  display: none;
+}
+
 @media screen and (max-width: 48rem) {
   .container {
     max-width: 48rem;
+  }
+
+  .hero1 {
+    display: none;
+  }
+
+  .hero2 {
+    display: none;
+  }
+
+  .hero3 {
+    display: block;
+    position: absolute;
+    top: 8.75rem;
+    left: -1.75rem;
   }
 }

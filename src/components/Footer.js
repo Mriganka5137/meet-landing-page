@@ -7,7 +7,7 @@ function Footer() {
         Stay connected with reliable HD meetings and unlimited one-on-one and
         group video sessions.
       </p>
-      <button className={styles.btn}>
+      <button className={styles.btn_footer}>
         Download <span>v1.3</span>
       </button>
     </footer>

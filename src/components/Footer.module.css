@@ -12,7 +12,7 @@
   z-index: -1;
 }
 
-.footer::before {
+.footer::after {
   content: "";
   position: absolute;
   background-color: #4d96a9;
@@ -21,6 +21,7 @@
   top: 0;
   left: 0;
   opacity: 0.8;
+  z-index: 1;
 }
 
 .heading {
@@ -44,7 +45,7 @@
   line-height: 1.625rem; /* 144.444% */
 }
 
-.btn {
+.btn_footer {
   z-index: 2;
   padding: 1rem 2.5rem;
   border: none;
@@ -59,10 +60,10 @@
   transition: all 0.5s ease-in;
 }
 
-.btn:hover {
-  background-color: #b18bdd;
+.btn_footer:hover {
+  background: #b18bdd;
 }
 
-.btn > span {
+.btn_footer > span {
   color: #d9b8ff;
 }

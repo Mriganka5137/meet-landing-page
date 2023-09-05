@@ -22,7 +22,7 @@ header {
   font-family: Red Hat Display;
   font-size: 1.125rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.625rem; /* 144.444% */
   margin-top: 2rem;
 }
@@ -62,4 +62,21 @@ header {
 
 .btn_question:hover {
   background-color: #b18bdd;
+}
+
+@media screen and (max-width: 48rem) {
+  .header {
+    margin-top: 28rem;
+  }
+
+  .primary_heading {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    width: 27.5625rem;
+    margin-top: 1.5rem;
+  }
 }
