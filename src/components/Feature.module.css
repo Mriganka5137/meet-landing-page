@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 4rem;
+  /* text-align: center; */
 }
 
 .subheading {
@@ -43,5 +44,23 @@
   }
   .description {
     width: 40rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .feature {
+    margin-top: 3.5rem;
+  }
+  .heading {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2.25rem; /* 112.5% */
+    margin-top: 1.5rem;
+    width: 20.4375rem;
+  }
+  .description {
+    width: 20.4375rem;
+    text-align: center;
   }
 }

@@ -39,13 +39,13 @@ header {
   font-weight: 900;
   line-height: 1.625rem;
   border-radius: 1.8rem;
-  padding: 1rem 2.5rem;
   color: #fff;
   cursor: pointer;
   transition: all 0.5s ease-in;
 }
 
 .btn_download {
+  padding: 1rem 2.5rem;
   background-color: #4d96a9;
 }
 
@@ -57,6 +57,7 @@ header {
 }
 
 .btn_question {
+  padding: 1rem 1.8rem;
   background-color: #855fb1;
 }
 
@@ -78,5 +79,28 @@ header {
     font-size: 1rem;
     width: 27.5625rem;
     margin-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    margin-top: 20.69rem;
+  }
+
+  .primary_heading {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    width: 20.5rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+  }
+
+  .button_group {
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -41,3 +41,23 @@
     left: -1.75rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 425px;
+  }
+
+  .hero1 {
+    display: none;
+  }
+
+  .hero2 {
+    display: none;
+  }
+
+  .hero3 {
+    top: 8.1rem;
+    left: -1.25rem;
+    width: 28rem;
+  }
+}
