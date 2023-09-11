@@ -67,3 +67,19 @@
 .btn_footer > span {
   color: #d9b8ff;
 }
+
+@media screen and (max-width: 48rem) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 5.75rem 6rem 4rem 6rem;
+  }
+  .heading {
+    margin-bottom: 2rem;
+  }
+
+  .description {
+    width: 35.8125rem;
+    margin-bottom: 2.5rem;
+  }
+}

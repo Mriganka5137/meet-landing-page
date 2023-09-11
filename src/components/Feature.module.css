@@ -36,3 +36,12 @@
   line-height: 1.625rem; /* 144.444% */
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 48rem) {
+  .feature {
+    margin-top: 3rem;
+  }
+  .description {
+    width: 40rem;
+  }
+}

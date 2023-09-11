@@ -7,6 +7,15 @@
 
 .img {
   width: 15.9375rem;
-  height: 15.125rem;
+  /* height: 15.125rem; */
   border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 48rem) {
+  .gallery {
+    gap: 0.69rem;
+  }
+  .img {
+    width: 10.25rem;
+  }
 }
